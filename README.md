@@ -1,4 +1,12 @@
+<div align="center">
+
 # Reducks
+
+![RE](https://user-images.githubusercontent.com/35904733/233896130-28e9daad-e062-432d-9deb-e37d46525946.png)
+
+<hr/>
+
+</div>
 
 ## Welcome
 
