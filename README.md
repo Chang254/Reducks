@@ -1,28 +1,24 @@
-# Create T3 App
+<div align="center">
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+# Reducks
 
-## What's next? How do I make an app with this?
+![RE](https://user-images.githubusercontent.com/35904733/233896130-28e9daad-e062-432d-9deb-e37d46525946.png)
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+<hr/>
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+</div>
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+## Welcome
 
-## Learn More
+This project is currently being built, check back later!
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+It's a message board where you can only send ducks! The state management is handled by Redux :)
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+## Tech Stack
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
-
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+- Next.js
+- Redux
+- TailwindCSS
+- NextAuth
+- tRPC
+- Prisma
