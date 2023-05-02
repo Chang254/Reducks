@@ -29,7 +29,15 @@ const config = {
       },
     ],
     "@typescript-eslint/no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
+    "indent": ["warn", 2],
+    "no-unused-vars": ["off", { "vars": "local" }],
+    "no-case-declarations": "off",
+    "prefer-const": "warn",
+    "react/prop-types": "off",
+    "semi": ["warn", "always"],
+    "space-infix-ops": "warn"
   },
+  
 };
 
 module.exports = config;
