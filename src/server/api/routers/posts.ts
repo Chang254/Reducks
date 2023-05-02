@@ -14,12 +14,12 @@ export const postRouter = createTRPCRouter({
           duckType: input.duckType,
           userId: ctx.session.user.id,
         }
-      })
+      });
       return newPost;
     }),
 
   getPost: protectedProcedure.query(async ({ctx}) => {
-    const posts = await ctx.prisma.$queryRaw`SELECT * FROM Posts`
+    const posts = await ctx.prisma.$queryRaw`SELECT * FROM Posts`;
     return posts;
   }),
 });
