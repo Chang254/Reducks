@@ -22,4 +22,11 @@ export const postRouter = createTRPCRouter({
     const posts = await ctx.prisma.$queryRaw`SELECT * FROM Posts`;
     return posts;
   }),
+
+  getUserPosts: protectedProcedure
+    .input(z.string())
+    .query(async ({input, ctx}) => {
+      return await ctx.prisma.$queryRaw`SELECT * from Posts where userId = ${input}`;
+    })
+  
 });

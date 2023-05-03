@@ -8,3 +8,10 @@ export interface post {
 export interface postProps {
     post: post
 }
+
+export interface userInfo {
+    id: string;
+    image: string;
+    name: string;
+    favoriteDuck: number | null
+}

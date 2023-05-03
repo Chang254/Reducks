@@ -77,7 +77,7 @@ model Followers {
     id            String    @id @default(cuid())  
     followerId    String
     followingId   String
-    following     User @relation(fields: [followingId], references: [id], onDelete: Cascade)
+    following     User @relation(fields: [followerId], references: [id], onDelete: Cascade)
 
     @@index([followingId])
 }
