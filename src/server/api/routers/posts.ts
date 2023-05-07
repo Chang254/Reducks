@@ -27,6 +27,11 @@ export const postRouter = createTRPCRouter({
     .input(z.string())
     .query(async ({input, ctx}) => {
       return await ctx.prisma.$queryRaw`SELECT * from Posts where userId = ${input}`;
-    })
+    }),
   
+  deletePost: protectedProcedure
+    .input(z.string())
+    .mutation(async ({input, ctx}) => {
+      return await ctx.prisma.$queryRaw`DELETE FROM Posts where id = ${input}`;
+    })
 });
